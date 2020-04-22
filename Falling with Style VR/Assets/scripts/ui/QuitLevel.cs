@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class QuitLevel : MonoBehaviour
 {
     // Start is called before the first frame update
-    public QuitLevel() {
+    public void Quit() {
         SceneManager.LoadScene(0);
 
 

@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -44,6 +45,9 @@ public class PlayerController : MonoBehaviour
 	public void win() {
 		message.text = "Won!\n Score: "+GameManager.score.ToString();
 		next.SetActive(true);
+		if (GameManager.levelChart[SceneManager.GetActiveScene().buildIndex-1] < GameManager.score)
+			GameManager.levelChart[SceneManager.GetActiveScene().buildIndex-1] = GameManager.score;
+
 
 	}
 	public void ScoreIncrement(int x) {
