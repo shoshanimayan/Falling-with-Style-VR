@@ -4,7 +4,28 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/menu.unity
+    guid: 8f22327d744cbfc4eb8139ea9ed592fe
+  - enabled: 1
+    path: Assets/Scenes/lv1.unity
+    guid: 9a2a859f80f042948820702351fa2959
+  - enabled: 1
+    path: Assets/Scenes/lv2.unity
+    guid: d21c5855a0059e64da7f385dd75f23b4
+  - enabled: 1
+    path: Assets/Scenes/lv3.unity
+    guid: 03bac0c3d0d1315429ebf690a3291a86
+  - enabled: 1
+    path: Assets/Scenes/lv4.unity
+    guid: 599374bb43bf6fa408d2dbd39a3340fc
+  - enabled: 1
+    path: Assets/Scenes/lv5.unity
+    guid: fb0887d78a9f35e4c987a11cf727831a
+  - enabled: 1
+    path: Assets/Scenes/lv6.unity
+    guid: c1c290c6d3535fb46a94775a588070ac
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: adc4d218c92166e4db553368ea5e2b8c,
       type: 2}
