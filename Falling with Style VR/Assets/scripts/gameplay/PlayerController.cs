@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
 	public GameObject next;
 	public GameObject quit;
 	public GameObject retry;
-
+	public GameObject speedLines;
 	private void Awake()
 	{
 	
@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
 		quit.SetActive(false);
 		retry.SetActive(false);
 		message.text = "hit trigger to start";
+		speedLines.SetActive(false);
 		//velocity
 		Vector3 vel = Vector3.zero;
 		
@@ -58,7 +59,7 @@ public class PlayerController : MonoBehaviour
 		GameManager.play = false;
 
 		if (fall) {
-
+			speedLines.SetActive(false);
 			rb.isKinematic = true;
 			fall = false;
 			rb.velocity = Vector3.zero;
@@ -164,8 +165,12 @@ public class PlayerController : MonoBehaviour
 					vel = new Vector3(vel.x, -9.8f, vel.z);
 
 				}
+				
 				rb.velocity = vel;
-
+				if (vel.y == -20)
+					speedLines.SetActive(true);
+				else
+					speedLines.SetActive(false);
 			}
 		}
 		else
