@@ -13,4 +13,9 @@ public class upwards : MonoBehaviour
         if(GameManager.play)
             transform.Translate(Vector3.up*Time.deltaTime*10);
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag != "Player")
+            Destroy(gameObject);
+    }
 }

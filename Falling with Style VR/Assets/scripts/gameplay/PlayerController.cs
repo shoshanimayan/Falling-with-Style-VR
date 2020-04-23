@@ -59,6 +59,7 @@ public class PlayerController : MonoBehaviour
 		GameManager.play = false;
 
 		if (fall) {
+		
 			speedLines.SetActive(false);
 			rb.isKinematic = true;
 			fall = false;
@@ -97,31 +98,32 @@ public class PlayerController : MonoBehaviour
 		{
 			if (fall)
 			{
+				vel = Vector3.zero;
 				Vector3 positionL = Vector3.zero;
 				Vector3 positionR = Vector3.zero;
 				Vector3 positionH = Vector3.zero;
+				
 
 				InputDevice handL = InputDevices.GetDeviceAtXRNode(leftHand.GetComponent<XRController>().controllerNode);
 				InputDevice handR = InputDevices.GetDeviceAtXRNode(rightHand.GetComponent<XRController>().controllerNode);
 				InputDevice head = InputDevices.GetDeviceAtXRNode(headNode.GetComponent<XRController>().controllerNode);
-
 				handL.TryGetFeatureValue(CommonUsages.devicePosition, out positionL);
 				handR.TryGetFeatureValue(CommonUsages.devicePosition, out positionR);
 				head.TryGetFeatureValue(CommonUsages.devicePosition, out positionH);
-
+			
 				Vector3 headToRight = (positionR - positionH);
 				Vector3 headToLeft = (positionL - positionH);
 				float handDistance = Vector3.Distance(positionL, positionR);
 
 				if (headToLeft.y > 0 && headToRight.y > 0)
 				{
-					vel += new Vector3(0, 0, 1);
+					vel += new Vector3(0, 0, 5);
 					if (vel.z > 5)
 						vel.z = 5;
 				}
 				else if (headToLeft.y <= -.6f && headToRight.y <= -.6f)
 				{
-					vel += new Vector3(0, 0, -1);
+					vel += new Vector3(0, 0, -5);
 					if (vel.z < -5)
 						vel.z = -5;
 
@@ -134,13 +136,13 @@ public class PlayerController : MonoBehaviour
 
 				if (headToLeft.x > 0 && headToRight.x > 0)
 				{
-					vel += new Vector3(1, 0, 0);
+					vel += new Vector3(5, 0, 0);
 					if (vel.x > 5)
 						vel.x = 5;
 				}
 				else if (headToLeft.x < 0 && headToRight.x < 0)
 				{
-					vel += new Vector3(-1, 0, 0);
+					vel += new Vector3(-5, 0, 0);
 					if (vel.x < -5)
 						vel.x = -5;
 				}
