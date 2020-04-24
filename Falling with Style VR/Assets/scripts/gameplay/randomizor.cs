@@ -6,24 +6,49 @@ public class randomizor : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject[] blocks;
+    private bool randomized = false;
+    public GameObject gateObject;
+    public GameObject gateObject2;
+    public GameObject gateObject3;
+    private GameObject prefab;
+    private GameObject[] gateList;
     private void Awake()
     {
         if (blocks.Length != 12) { Destroy(gameObject); }
-        int numberOff = Random.Range(1, 12);
-        int count=0;
-        while (count != numberOff) {
-            foreach (GameObject block in blocks) {
-                if (count < numberOff)
+        gateList = new GameObject[] { gateObject, gateObject2, gateObject3 };
+      
+    }
+    private void Update()
+    {
+        if (!randomized && GameManager.play)
+        {
+
+            int numberOff = Random.Range(1, 6);
+            int count = 0;
+            bool gate = false;
+
+            while (count != numberOff)
+            {
+                foreach (GameObject block in blocks)
                 {
-                    if (Random.Range(1, 10) % 2 == 0)
+                    if (count < numberOff)
                     {
-                        block.SetActive(false);
-                        count++;
+                        if (Random.Range(1, 100) % 2 == 0)
+                        {
+                            block.SetActive(false);
+                            if (!gate && Random.Range(count,numberOff)%2==1) {
+                                prefab = gateList[Random.Range(0, 3)];
+                                Instantiate(prefab, block.transform.position, block.transform.rotation);
+                                gate = true;
+                            }
+                            count++;
+                        }
                     }
+                    else { break; }
                 }
-                else { break; }
+
             }
-                
+            randomized = true;
         }
     }
 
