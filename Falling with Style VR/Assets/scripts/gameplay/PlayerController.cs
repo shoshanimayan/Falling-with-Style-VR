@@ -22,9 +22,17 @@ public class PlayerController : MonoBehaviour
 	public GameObject quit;
 	public GameObject retry;
 	public GameObject speedLines;
+
+
+	//sound
+	public AudioSource AS;
+	public AudioClip wind;
+	public AudioClip wind2;
+	public AudioClip point;
+
+
 	private void Awake()
 	{
-	
 		//reset manager for level 
 		GameManager.score = 0;
 		GameManager.play = false;
@@ -53,11 +61,12 @@ public class PlayerController : MonoBehaviour
 	}
 	public void ScoreIncrement(int x) {
 		GameManager.score += x;
+		AS.PlayOneShot(point);
 	}
 
 	public void hit(Vector3 position) {
 		GameManager.play = false;
-
+		AS.Stop();
 		if (fall) {
 		
 			speedLines.SetActive(false);
@@ -98,6 +107,12 @@ public class PlayerController : MonoBehaviour
 		{
 			if (fall)
 			{
+				if (rb.velocity.y > -10)
+					AS.clip = wind;
+				else
+					AS.clip = wind2;
+				if (!AS.isPlaying)
+					AS.Play();
 				vel = Vector3.zero;
 				Vector3 positionL = Vector3.zero;
 				Vector3 positionR = Vector3.zero;

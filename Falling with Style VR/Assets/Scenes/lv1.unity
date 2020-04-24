@@ -7537,6 +7537,10 @@ MonoBehaviour:
   quit: {fileID: 1467334041}
   retry: {fileID: 2070340330}
   speedLines: {fileID: 1206429275}
+  AS: {fileID: 1377947853}
+  wind: {fileID: 8300000, guid: 825f95b6970f665469cd7f88ba52141b, type: 3}
+  wind2: {fileID: 8300000, guid: 658cee3b3f218a346b6da559c0a538d5, type: 3}
+  point: {fileID: 8300000, guid: 6c655f88c864db2479b209124f155ef8, type: 3}
 --- !u!1 &1906949058
 GameObject:
   m_ObjectHideFlags: 0
