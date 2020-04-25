@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
 	///player variables 
 	private Rigidbody rb;
 	private Vector3 vel;
+	public float dropSpeed=-9.8f;
 	private bool fall;
 	private bool start = false;
 	public GameObject menu;
@@ -60,21 +61,22 @@ public class PlayerController : MonoBehaviour
 
 	}
 	public void ScoreIncrement(int x) {
+	
+
 		GameManager.score += x;
 		AS.PlayOneShot(point);
 	}
 
 	public void hit(Vector3 position) {
 		GameManager.play = false;
-		AS.Stop();
+		AS.Pause();
 		if (fall) {
 		
 			speedLines.SetActive(false);
 			rb.isKinematic = true;
 			fall = false;
 			rb.velocity = Vector3.zero;
-			transform.parent.transform.rotation = Quaternion.Euler(0, 0, 0);
-			transform.position = new Vector3(position.x,position.y+1,position.z);
+			transform.position = new Vector3(position.x,position.y+2,position.z);
 			menu.SetActive(true);
 			next.SetActive(false);
 			quit.SetActive(true);
@@ -170,21 +172,32 @@ public class PlayerController : MonoBehaviour
 
 				if (handDistance <= .1)
 				{
-					vel = new Vector3(vel.x, -20, vel.z);
+					//vel = new Vector3(vel.x, -20, vel.z);
+					dropSpeed -= .1f;
+					if (dropSpeed < -20)
+						dropSpeed = -20;
 				}
 				else if (handDistance >= 1)
 				{
-					vel = new Vector3(vel.x, -3, vel.z);
-
+					//vel = new Vector3(vel.x, -3, vel.z);
+					dropSpeed += .2f;
+					if (dropSpeed > -3) {
+						dropSpeed = -3;
+					}
 				}
 				else
 				{
-					vel = new Vector3(vel.x, -9.8f, vel.z);
-
+					if (dropSpeed > -9.8)
+						dropSpeed -= .1f;
+					else if (dropSpeed < -9.8)
+						dropSpeed += .2f;
+					
+					//vel = new Vector3(vel.x, -9.8f, vel.z);
+					
 				}
-				
+				vel = new Vector3(vel.x, dropSpeed, vel.z);
 				rb.velocity = vel;
-				if (vel.y == -20)
+				if (vel.y <=-15)
 					speedLines.SetActive(true);
 				else
 					speedLines.SetActive(false);
