@@ -177,13 +177,13 @@ public class PlayerController : MonoBehaviour
 				{
 					//vel = new Vector3(vel.x, -20, vel.z);
 					dropSpeed -= .1f;
-					if (dropSpeed < -20)
-						dropSpeed = -20;
+					if (dropSpeed < -30)
+						dropSpeed = -30;
 				}
 				else if (handDistance >= 1)
 				{
 					//vel = new Vector3(vel.x, -3, vel.z);
-					dropSpeed += .2f;
+					dropSpeed += .3f;
 					if (dropSpeed > -3) {
 						dropSpeed = -3;
 					}

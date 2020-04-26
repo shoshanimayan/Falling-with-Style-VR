@@ -15,15 +15,14 @@ public class MovingBlock : MonoBehaviour
     }
     void Update()
     {
-          if (GameManager.play)
-           {
+        if(GameManager.play){
         if (Vector3.Distance(transform.position, start) < distance)
             transform.Translate(Vector3.left * direction * Time.deltaTime * speed);
         else {
             direction = direction * -1;
             start = transform.position;
         }
-        }
+       }
     }
     private void OnCollisionEnter(Collision collision)
     {
