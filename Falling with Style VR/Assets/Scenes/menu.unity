@@ -2785,7 +2785,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Level 6:
 
-    Random Dodge'
+    Infinite Random Fall'
 --- !u!222 &1379396486
 CanvasRenderer:
   m_ObjectHideFlags: 0
