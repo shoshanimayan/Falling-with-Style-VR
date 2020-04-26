@@ -100,6 +100,9 @@ public class PlayerController : MonoBehaviour
 		if (other.gameObject.tag == "red") { ScoreIncrement(100); }
 		if (other.gameObject.tag == "green") { ScoreIncrement(50); }
 		if (other.gameObject.tag == "blue") { ScoreIncrement(10); }
+		if (other.gameObject.tag == "random") { other.GetComponent<spawnRandom>().spawn(); }
+		if (other.gameObject.tag == "cleanup") { other.GetComponent<cleanup>().clean(); }
+
 	}
 
 
