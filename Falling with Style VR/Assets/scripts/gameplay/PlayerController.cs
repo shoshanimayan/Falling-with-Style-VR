@@ -108,9 +108,9 @@ public class PlayerController : MonoBehaviour
 
 	private void FixedUpdate()
 	{
-		if (start)
+		if (start) //game has started
 		{
-			if (fall)
+			if (fall) //is falling
 			{
 				if (rb.velocity.y > -10)
 					AS.clip = wind;

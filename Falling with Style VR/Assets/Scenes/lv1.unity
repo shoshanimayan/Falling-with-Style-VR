@@ -1391,6 +1391,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1765351371443287959, guid: 3357fd9196eebea4297f965cde1d5d4d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4514863323904640508, guid: 3357fd9196eebea4297f965cde1d5d4d,
         type: 3}
       propertyPath: m_Name
@@ -7531,6 +7536,7 @@ MonoBehaviour:
   leftHand: {fileID: 1210658478}
   rightHand: {fileID: 309262290}
   headNode: {fileID: 1377947848}
+  dropSpeed: -9.8
   menu: {fileID: 1906949058}
   message: {fileID: 1935993693}
   next: {fileID: 505578774}
