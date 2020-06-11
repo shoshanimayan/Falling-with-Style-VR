@@ -9,6 +9,7 @@ TagManager:
   - green
   - random
   - cleanup
+  - rig
   layers:
   - Default
   - TransparentFX

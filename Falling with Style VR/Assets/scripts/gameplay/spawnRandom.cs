@@ -4,15 +4,13 @@ using UnityEngine;
 public class spawnRandom : MonoBehaviour
 {
     public GameObject prefab;
-    private void Awake()
-    {
-       // spawn();
-    }
+    public cleanup death;
+ 
     // Start is called before the first frame update
    
 
     public void spawn() {
-        Vector3 position = new Vector3(transform.parent.position.x, transform.parent.position.y-745, transform.parent.position.z);
-        Instantiate(prefab, position, transform.rotation);
+        Vector3 position = new Vector3(transform.parent.position.x, transform.parent.position.y-747, transform.parent.position.z);
+        death.next=Instantiate(prefab, position, transform.rotation);
     }
 }

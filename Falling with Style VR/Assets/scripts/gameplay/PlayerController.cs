@@ -38,8 +38,8 @@ public class PlayerController : MonoBehaviour
 		GameManager.score = 0;
 		GameManager.play = false;
 		//set  variables
-		leftHand.GetComponent<XRInteractorLineVisual>().lineLength = 1;
-		rightHand.GetComponent<XRInteractorLineVisual>().lineLength = 1;
+		leftHand.GetComponent<XRInteractorLineVisual>().lineLength = .5f;
+		rightHand.GetComponent<XRInteractorLineVisual>().lineLength = .5f;
 		rb = GetComponent<Rigidbody>();
 		fall = false;
 		//ui setup
@@ -101,7 +101,9 @@ public class PlayerController : MonoBehaviour
 		if (other.gameObject.tag == "green") { ScoreIncrement(50); }
 		if (other.gameObject.tag == "blue") { ScoreIncrement(10); }
 		if (other.gameObject.tag == "random") { other.GetComponent<spawnRandom>().spawn(); }
-		if (other.gameObject.tag == "cleanup") { other.GetComponent<cleanup>().clean(); }
+		if (other.gameObject.tag == "cleanup") {
+			other.GetComponent<cleanup>().clean();
+		}
 
 	}
 

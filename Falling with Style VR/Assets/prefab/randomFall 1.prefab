@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1927312ea10f14d9b18c54464835ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  next: {fileID: 0}
 --- !u!1 &3999745230648198148
 GameObject:
   m_ObjectHideFlags: 0
@@ -275,6 +276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1531065278282875082}
+  death: {fileID: 1369842049990612214}
 --- !u!1 &3999745230734392326
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ public class randomizor : MonoBehaviour
                             block.SetActive(false);
                             if (!gate && Random.Range(count,numberOff)%2==0) {
                                 prefab = gateList[Random.Range(0, 3)];
-                                Instantiate(prefab, block.transform.position, block.transform.rotation);
+                                Instantiate(prefab, block.transform.position, block.transform.rotation).transform.parent=transform;
                                 gate = true;
                             }
                             count++;
