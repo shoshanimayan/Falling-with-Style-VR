@@ -64,6 +64,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 43
       Script: {instanceID: 0}
+    - Class: 45
+      Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
@@ -127,8 +129,6 @@ ScriptsOnlyBuild:
     - Class: 120
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -226,8 +226,6 @@ ScriptsOnlyBuild:
     - Class: 120
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -328,8 +326,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
@@ -414,6 +410,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12906}
     - Class: 114
+      Script: {instanceID: 12912}
+    - Class: 114
       Script: {instanceID: 12944}
     - Class: 114
       Script: {instanceID: 13204}
@@ -428,8 +426,6 @@ ScriptsOnlyBuild:
     - Class: 120
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -477,8 +473,6 @@ ScriptsOnlyBuild:
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -533,8 +527,6 @@ ScriptsOnlyBuild:
     - Class: 120
       Script: {instanceID: 0}
     - Class: 128
-      Script: {instanceID: 0}
-    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -639,8 +631,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 136
-      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
@@ -676,7 +666,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -773,7 +767,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 6e5090e436b3b8c3cc94003497cff7cd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: cleanup
@@ -1139,7 +1133,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 9617c9ff8d2ca7af8db5e25d05ca9a8c
+      Hash: f0308f320a91be2e2d859342e083d933
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: rotate
@@ -1217,7 +1211,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 220bd265f54cc4cee8f1539ad2b2c64a
+      Hash: aba727556f7adc23c8e337fc64fecd8f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: spawnRandom
