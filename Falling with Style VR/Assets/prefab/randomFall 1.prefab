@@ -168,6 +168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &3999745230648198148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,7 +2066,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f8567cf89e3293428d2a21d0ebc291f, type: 2}
+      objectReference: {fileID: 2100000, guid: 935470594bcdee94bade527ca9077ff4, type: 2}
     - target: {fileID: 2304338952652210225, guid: c02903a6c34a4bc44b3cc2d3432adf80,
         type: 3}
       propertyPath: m_Name
@@ -2255,7 +2256,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f8567cf89e3293428d2a21d0ebc291f, type: 2}
+      objectReference: {fileID: 2100000, guid: 935470594bcdee94bade527ca9077ff4, type: 2}
     - target: {fileID: 2304338952652210225, guid: c02903a6c34a4bc44b3cc2d3432adf80,
         type: 3}
       propertyPath: m_Name
@@ -10467,7 +10468,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f8567cf89e3293428d2a21d0ebc291f, type: 2}
+      objectReference: {fileID: 2100000, guid: 935470594bcdee94bade527ca9077ff4, type: 2}
     - target: {fileID: 2304338952652210225, guid: c02903a6c34a4bc44b3cc2d3432adf80,
         type: 3}
       propertyPath: m_Name
@@ -12097,7 +12098,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8f8567cf89e3293428d2a21d0ebc291f, type: 2}
+      objectReference: {fileID: 2100000, guid: 935470594bcdee94bade527ca9077ff4, type: 2}
     - target: {fileID: 2304338952652210225, guid: c02903a6c34a4bc44b3cc2d3432adf80,
         type: 3}
       propertyPath: m_Name
