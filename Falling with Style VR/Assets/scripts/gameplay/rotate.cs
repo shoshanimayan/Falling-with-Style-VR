@@ -8,7 +8,7 @@ public class rotate : MonoBehaviour
     public int speed=50;
     void Update()
     {
-        if(GameManager.play)
+       // if(GameManager.play)
             transform.Rotate(0, direction*speed * Time.deltaTime, 0); //rotates 50 degrees per second around z axis
     }
 }
