@@ -16,7 +16,7 @@ public class RingRotation : MonoBehaviour
     void Update()
     {
         //if game has started
-          if (GameManager.play)
+          if (!GameManager.play)
           {
             transform.Rotate(angle * speed * Time.deltaTime);
             }
