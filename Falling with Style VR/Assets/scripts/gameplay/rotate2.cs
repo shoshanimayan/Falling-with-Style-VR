@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class rotate2 : MonoBehaviour
 {
+    //TODO: combine all rotation scripts and modularize
     public int direction = 1;
     public int speed = 50;
     void Update()

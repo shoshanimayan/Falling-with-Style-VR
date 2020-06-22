@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class floor : MonoBehaviour
 {
+    //either causes player to lose or win if this floor is the goal
     public bool goal = false;
     private void OnCollisionEnter(Collision collision)
     {

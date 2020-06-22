@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
 	public float dropSpeed=-9.8f;
 	private bool fall;
 	private bool start = false;
+	//ui
 	public GameObject menu;
 	public Text message;
 	public GameObject next;
@@ -110,6 +111,8 @@ public class PlayerController : MonoBehaviour
 
 	private void FixedUpdate()
 	{
+
+		//todo: refactor to simplify all this somehow, break down into methods
 		if (start) //game has started
 		{
 			if (fall) //is falling
@@ -210,7 +213,7 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
-
+			// only used at beginning and end of level for interaction with ui
 			bool triggerL = false;
 			bool triggerR = false;
 

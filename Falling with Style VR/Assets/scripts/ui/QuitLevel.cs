@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//todo refactor to be in gamemanager, this is from prototypes stages
 public class QuitLevel : MonoBehaviour
 {
     // Start is called before the first frame update

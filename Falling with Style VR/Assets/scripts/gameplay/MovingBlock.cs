@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// TODO: combine all block movemnt scripts to simplify and modularize
+/// </summary>
 public class MovingBlock : MonoBehaviour
 {
     public int direction=1;

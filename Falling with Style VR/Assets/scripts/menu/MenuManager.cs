@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
-
+    /// <summary>
+    /// decides which levels are visibly active in main menu and updates score board
+    /// </summary>
     public GameObject[] levels;
     public Text scoreBoard;
     private void Awake()

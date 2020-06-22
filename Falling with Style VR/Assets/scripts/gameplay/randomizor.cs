@@ -2,15 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//used for randomization of which panels will be active and where rings spawn, only for use in random generation level
 public class randomizor : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //array of block objects childed
     public GameObject[] blocks;
     private bool randomized = false;
+
+    // score gates
     public GameObject gateObject;
     public GameObject gateObject2;
     public GameObject gateObject3;
+    //selected gate
     private GameObject prefab;
+    //list of all gates
     private GameObject[] gateList;
     private void Awake()
     {
@@ -20,6 +25,8 @@ public class randomizor : MonoBehaviour
     }
     private void Update()
     {
+        //on frame one randomize the object
+        //todo refactor to be on start instead of in update
         if (!randomized && GameManager.play)
         {
 

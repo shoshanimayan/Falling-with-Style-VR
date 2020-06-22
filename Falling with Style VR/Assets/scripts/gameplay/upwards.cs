@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class upwards : MonoBehaviour
 {
-    // Start is called before the first frame update
-   
-
-    // Update is called once per frame
+  // todo: combine all movement scripts, make more modular
     void Update()
     {
         if(GameManager.play)
