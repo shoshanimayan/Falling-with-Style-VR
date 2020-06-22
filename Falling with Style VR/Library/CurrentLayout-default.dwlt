@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 64
+  controlID: 74
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 371
     height: 572
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 69
+  controlID: 124
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 70
+  controlID: 125
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,8 +266,8 @@ MonoBehaviour:
     y: 0
     width: 1160
     height: 572
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -397,11 +397,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/prefab
+    - Assets/resources/mesh
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/prefab
+  - Assets/resources/mesh
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Shosh\OneDrive\Documents\GitHub\Falling-with-Style-VR\Falling
     with Style VR
@@ -409,9 +409,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60370000
-    m_LastClickedID: 14176
-    m_ExpandedIDs: 000000003c3700003e3700004037000000ca9a3b
+    m_SelectedIDs: 28390000
+    m_LastClickedID: 14632
+    m_ExpandedIDs: 00000000fe380000003900000239000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -439,7 +439,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003c3700003e37000040370000
+    m_ExpandedIDs: 00000000fe3800000039000002390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -467,7 +467,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000b601000000000000867f0000
+    m_ExpandedInstanceIDs: c6230000b601000000000000867f00003c3d0000023e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -562,9 +562,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fc8fffff
-      m_LastClickedID: -28676
-      m_ExpandedIDs: f0aafffff4aaffffd0aeffff88b5ffffacb5ffffbcb5ffffd8b5ffffdab5ffffe2b5fffffed1ffffc0d3ffffb6d5ffff0ad8ffff3ed9ffffecdaffffb4dcffff22dfffff7ce0ffffa4e1ffffa0e2ffff9ae3ffff12ebffff62fbffff5a350000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: faf1ffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -624,9 +624,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.418689, y: 79.89966, z: -1.283463}
+    m_Target: {x: -44.702457, y: -9.065411, z: -11.919991}
     speed: 2
-    m_Value: {x: -3.418689, y: 79.89966, z: -1.283463}
+    m_Value: {x: -44.702457, y: -9.065411, z: -11.919991}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -672,13 +672,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.5492628, y: -0.12553927, z: 0.082986996, w: 0.8226807}
+    m_Target: {x: 0.65597546, y: 0.18375887, z: -0.17162204, w: 0.71248233}
     speed: 2
-    m_Value: {x: 0.5477161, y: -0.1255923, z: 0.08275101, w: 0.8230346}
+    m_Value: {x: 0.6555965, y: 0.18365271, z: -0.17152289, w: 0.7120707}
   m_Size:
-    m_Target: 3.8275473
+    m_Target: 3.8130276
     speed: 2
-    m_Value: 3.5275474
+    m_Value: 3.8130276
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -740,7 +740,7 @@ MonoBehaviour:
   m_TargetSize: {x: 1158, y: 530}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
+  m_RenderIMGUI: 1
   m_MaximizeOnPlay: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -760,10 +760,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
+    m_HSlider: 1
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
