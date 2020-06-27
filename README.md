@@ -3,5 +3,5 @@ VR game made in Unity3D with C# for Oculus devices , sky diving game where playe
 
 currently only works on occulus devices and has only been test on quest
 
-this game actually started as a prototype to teach myself unity vr and level design, so it taught me about VR, and about the prototyping process, my main take away was that even when just prototyping a mechanic, i should probably plan my architecture a bit more in case said prototype ends up turning into a full game and then i dont have to refactor a bunch of stuff later.
+this game actually started as a prototype to teach myself unity vr , level design, and making my own simple assets in blender, so it taught me about all those things, and about the prototyping process, my main take away was that even when just prototyping a mechanic, i should probably plan my architecture a bit more in case said prototype ends up turning into a full game and then i dont have to refactor a bunch of stuff later.
 learned about how unity handles vr inputs and controller locations and space. level design is additionally something that is difficult and requiers a lot of prior planning, but the upside of prototyping is that if a level design just does not fundementally work, you can get rid of it.

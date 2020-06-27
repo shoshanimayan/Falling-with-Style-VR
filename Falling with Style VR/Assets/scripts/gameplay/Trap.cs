@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour
 {
+    /// <summary>
+    /// script to controller and costomuze the movement, speed and distance of spike traps
+    /// </summary>
     // Start is called before the first frame update
     private GameObject player;
     private bool triggered=false;
-    public float speed=1;
+    public float distanceFrom = 800;
+    public float stopDistance =120;
+    public float speed = 100;
+    public bool debug = false; //to test trap behavior without having to start game
     public float x;
     void Awake()
     {
@@ -17,22 +23,27 @@ public class Trap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!triggered && (player.transform.position.y - transform.position.y <= 800))
+        if(GameManager.play || debug) 
+        if (!triggered && (player.transform.position.y - transform.position.y <= distanceFrom))
         {
-            transform.position = Vector3.MoveTowards(transform.position, new Vector3(x, transform.position.y, transform.position.z), Time.deltaTime*100); ;
-            if (Vector3.Distance(transform.position, new Vector3(x, transform.position.y, transform.position.z))<120){
-                triggered = true;
-            }
-
+                if (transform.rotation.y != 0)
+                {
+                    transform.position = Vector3.MoveTowards(transform.position, new Vector3(x, transform.position.y, transform.position.z), Time.deltaTime * speed); ;
+                    if (Vector3.Distance(transform.position, new Vector3(x, transform.position.y, transform.position.z)) < stopDistance)
+                    {
+                        triggered = true;
+                    }
+                }
+                else
+                {
+                    transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y, x), Time.deltaTime * speed); ;
+                    if (Vector3.Distance(transform.position, new Vector3(transform.position.x, transform.position.y, x)) < stopDistance)
+                    {
+                        triggered = true;
+                    }
+                }
         }
-        /* 
-         if (!triggered && (player.transform.position.y - transform.position.y <= 800)) {
-             triggered = true;
-             ActivateTrap(Time.time);
-        }
-         if (triggered && !(transform.position.x <= 0)) {
-             transform.position = Vector3.MoveTowards(transform.position, new Vector3(0, transform.position.y, transform.position.z), 1); ;
-         }*/
+     
     }
 
   
