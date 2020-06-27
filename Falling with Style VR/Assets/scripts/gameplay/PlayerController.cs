@@ -213,7 +213,11 @@ public class PlayerController : MonoBehaviour
 		}
 		else
 		{
-			// only used at beginning and end of level for interaction with ui
+			//todo:
+			// only used at beginning and end of level, and menu scene for interaction with ui
+			//might be better to refactor this into its own class and create a class that acts 
+			//as a gate way to set which set of controls you should currently be using based on game state, should let me make things less dependant and more modular
+			//gatewayy class should also handle recieving all the controller positions and states.
 			bool triggerL = false;
 			bool triggerR = false;
 
