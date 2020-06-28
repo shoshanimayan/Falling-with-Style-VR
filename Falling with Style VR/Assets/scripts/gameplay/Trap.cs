@@ -13,7 +13,7 @@ public class Trap : MonoBehaviour
     public float distanceFrom = 800;
     public float stopDistance =120;
     public float speed = 100;
-    public bool debug = false; //to test trap behavior without having to start game
+    public bool debug = true; //to test trap behavior without having to start game
     public float x;
     void Awake()
     {
