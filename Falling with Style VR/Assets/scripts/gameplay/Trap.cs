@@ -10,10 +10,10 @@ public class Trap : MonoBehaviour
     // Start is called before the first frame update
     private GameObject player;
     private bool triggered=false;
-    public float distanceFrom = 800;
+    public float distanceFrom = 50;
     public float stopDistance =120;
     public float speed = 100;
-    public bool debug = true; //to test trap behavior without having to start game
+    public bool debug = false; //to test trap behavior without having to start game
     public float x;
     void Awake()
     {
