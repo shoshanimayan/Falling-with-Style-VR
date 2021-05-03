@@ -187,10 +187,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!64 &71197744
 MeshCollider:
@@ -203,7 +202,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8, type: 3}
 --- !u!23 &71197745
@@ -284,10 +283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!1 &121619847 stripped
 GameObject:
@@ -320,10 +318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!1001 &193534182
 PrefabInstance:
@@ -447,6 +444,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -477,10 +479,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!114 &226617552
 MonoBehaviour:
@@ -560,10 +561,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!114 &569241966
 MonoBehaviour:
@@ -589,7 +589,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8, type: 3}
 --- !u!23 &569241968
@@ -726,10 +726,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!114 &705212836
 MonoBehaviour:
@@ -975,10 +974,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!64 &851579969
 MeshCollider:
@@ -991,7 +989,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8, type: 3}
 --- !u!23 &851579970
@@ -1101,10 +1099,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!64 &896599413
 MeshCollider:
@@ -1117,7 +1114,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8, type: 3}
 --- !u!23 &896599414
@@ -1328,10 +1325,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!114 &1047768313
 MonoBehaviour:
@@ -1358,6 +1354,8 @@ GameObject:
   - component: {fileID: 1061028764}
   - component: {fileID: 1061028763}
   - component: {fileID: 1061028762}
+  - component: {fileID: 1061028767}
+  - component: {fileID: 1061028766}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -1439,6 +1437,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1061028766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061028761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbacef320ed0622478a153db65984010, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: 0
+--- !u!64 &1061028767
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061028761}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2432090755550338912, guid: 8d22b199a2687a34cbaa65f8e3a16647, type: 3}
 --- !u!1 &1132927086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1648,6 +1673,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1678,10 +1708,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!114 &1228539566
 MonoBehaviour:
@@ -1812,6 +1841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
         type: 3}
@@ -2129,10 +2163,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!114 &1520407075
 MonoBehaviour:
@@ -2264,6 +2297,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2392,6 +2430,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
         type: 3}
@@ -2619,10 +2662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!64 &1805375869
 MeshCollider:
@@ -2635,7 +2677,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8, type: 3}
 --- !u!23 &1805375870
@@ -2802,6 +2844,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2931,6 +2978,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -3003,10 +3055,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!64 &1911953777
 MeshCollider:
@@ -3019,7 +3070,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8, type: 3}
 --- !u!23 &1911953778
@@ -3185,10 +3236,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b41640536f0a524b920642e16ff4f6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distanceFrom: 800
+  distanceFrom: 150
   stopDistance: 120
   speed: 100
-  debug: 1
   x: 9
 --- !u!1 &2032036062
 GameObject:
@@ -3344,6 +3394,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: -2745567992595731601, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2416733968201007103, guid: 0e8cba547ac458e4aa155cb4a2c8f6f8,
         type: 3}

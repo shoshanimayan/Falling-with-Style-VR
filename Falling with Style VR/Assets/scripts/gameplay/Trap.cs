@@ -13,7 +13,6 @@ public class Trap : MonoBehaviour
     public float distanceFrom = 50;
     public float stopDistance =120;
     public float speed = 100;
-    public bool debug = false; //to test trap behavior without having to start game
     public float x;
     void Awake()
     {
@@ -23,7 +22,7 @@ public class Trap : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameManager.play || debug) 
+        if(GameManager.play) 
         if (!triggered && (player.transform.position.y - transform.position.y <= distanceFrom))
         {
                 if (transform.rotation.y != 0)

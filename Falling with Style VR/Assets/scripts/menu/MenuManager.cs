@@ -21,6 +21,7 @@ public class MenuManager : MonoBehaviour
 
         scoreBoard.text = "";
         for (int i = 0; i<GameManager.levelChart.Length; i++) {
+            Debug.Log(GameManager.levelChart[i]);
             if (GameManager.levelChart[i] > 0)
                 scoreBoard.text += "Level " + (i + 1).ToString() + ": " + GameManager.levelChart[i].ToString() + "\n";
         }

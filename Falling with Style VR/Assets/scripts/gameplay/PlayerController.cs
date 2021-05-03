@@ -225,7 +225,7 @@ public class PlayerController : MonoBehaviour
 			InputDevice handR = InputDevices.GetDeviceAtXRNode(rightHand.GetComponent<XRController>().controllerNode);
 			handL.TryGetFeatureValue(CommonUsages.triggerButton, out triggerL);
 			handR.TryGetFeatureValue(CommonUsages.triggerButton, out triggerR);
-			if (triggerL || triggerR)
+			if (triggerL || triggerR || Input.GetKeyDown(KeyCode.Return))
 			{
 				start = true;
 				fall = true;
