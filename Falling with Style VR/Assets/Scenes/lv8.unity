@@ -189,6 +189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &81660448 stripped
@@ -204,6 +209,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 136405594}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -312,6 +322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1656747357}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -480,6 +495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &136405593
@@ -548,6 +568,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -624,6 +649,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &150496181 stripped
@@ -639,6 +669,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 655750747}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -747,6 +782,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1506247633}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -915,6 +955,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &205568572 stripped
@@ -989,6 +1034,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -1408,6 +1458,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1476439159}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1714,6 +1769,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &409376441 stripped
@@ -1788,6 +1848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -2044,6 +2109,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &424228242 stripped
@@ -2119,6 +2189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &428158778 stripped
@@ -2134,6 +2209,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 409376441}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2242,6 +2322,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1920232427}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2410,6 +2495,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &563176530 stripped
@@ -2484,6 +2574,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -2629,6 +2724,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &652722266
@@ -2638,6 +2738,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 424228242}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2806,6 +2911,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &655750747 stripped
@@ -2880,6 +2990,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -3354,6 +3469,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1389132834}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3727,6 +3847,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 205568572}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3835,6 +3960,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1551238648}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3943,6 +4073,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2047214168}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4111,6 +4246,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &921439669
@@ -4120,6 +4260,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1120632796}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4228,6 +4373,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1993277092}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4506,6 +4656,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1385933072}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4614,6 +4769,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1084717056}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4722,6 +4882,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 428158778}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4982,6 +5147,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &1084717055
@@ -5050,6 +5220,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -5214,6 +5389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -5517,6 +5697,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1937101129}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5685,6 +5870,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &1265758284
@@ -5694,6 +5884,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 81660448}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6140,6 +6335,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1326605088 stripped
@@ -6215,6 +6415,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1385933072 stripped
@@ -6230,6 +6435,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1442024287}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6398,6 +6608,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1389132834 stripped
@@ -6473,6 +6688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1442024287 stripped
@@ -6488,6 +6708,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1469357196}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6656,6 +6881,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1469357196 stripped
@@ -6823,6 +7053,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1476439159 stripped
@@ -6838,6 +7073,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 150496181}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6946,6 +7186,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2145856725}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7114,6 +7359,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1506247633 stripped
@@ -7279,6 +7529,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &1551238647
@@ -7347,6 +7602,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -7423,6 +7683,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &1656747356
@@ -7491,6 +7756,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -7567,6 +7837,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &1708882765
@@ -7576,6 +7851,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 590296817}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7823,6 +8103,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!1001 &1810674572
@@ -7970,6 +8255,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1326605088}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8138,6 +8428,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1920232427 stripped
@@ -8212,6 +8507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
@@ -8367,6 +8667,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &1993277092 stripped
@@ -8442,6 +8747,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: asteriod (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
 --- !u!4 &2047214168 stripped
@@ -8457,6 +8767,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 673606218}
     m_Modifications:
+    - target: {fileID: -6860895033569716450, guid: 99d2a808f3673dc48bb48b52976ecdfa,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 99d2a808f3673dc48bb48b52976ecdfa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8716,6 +9031,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: asteriod (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8395153981018964563, guid: 1690e7e4773ea4c45b7b636c6e165142,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1690e7e4773ea4c45b7b636c6e165142, type: 3}
