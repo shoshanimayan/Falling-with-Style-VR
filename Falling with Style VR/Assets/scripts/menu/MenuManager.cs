@@ -12,7 +12,7 @@ public class MenuManager : MonoBehaviour
     public Text scoreBoard;
     private void Awake()
     {
-        for (int i = 1; i < levels.Length-1; i++) {
+        for (int i = 1; i < levels.Length; i++) {
             if (GameManager.levelChart[i - 1] <= 0)
                 levels[i].SetActive(false);
             else

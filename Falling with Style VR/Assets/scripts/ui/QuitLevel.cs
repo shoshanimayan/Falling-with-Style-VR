@@ -7,7 +7,7 @@ public class QuitLevel : MonoBehaviour
 {
     // Start is called before the first frame update
     public void Quit() {
-        if (SceneManager.GetActiveScene().buildIndex == 7) {
+        if (SceneManager.GetActiveScene().buildIndex == 6) {
             if (GameManager.levelChart[SceneManager.GetActiveScene().buildIndex - 1] < GameManager.score)
                 GameManager.levelChart[SceneManager.GetActiveScene().buildIndex - 1] = GameManager.score;
         }
