@@ -11,6 +11,7 @@ public class floor : MonoBehaviour
     public bool goal = false;
     private void OnCollisionEnter(Collision collision)
     {
+
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.GetComponent<PlayerController>().hit(collision.transform.position);

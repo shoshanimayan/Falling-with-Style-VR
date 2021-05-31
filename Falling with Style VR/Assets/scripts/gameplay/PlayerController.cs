@@ -140,6 +140,7 @@ public class PlayerController : MonoBehaviour
 				Vector3 headToLeft = (positionL - positionH);
 				float handDistance = Vector3.Distance(positionL, positionR);
 
+				//z direction
 				if (headToLeft.y > 0 && headToRight.y > 0)
 				{
 					vel += new Vector3(0, 0, 5);
@@ -158,7 +159,7 @@ public class PlayerController : MonoBehaviour
 					if (vel.z > 0) { vel.z -= .1f; }
 					if (vel.z < 0) { vel.z += .1f; }
 				}
-
+				//x direction
 				if (headToLeft.x > 0 && headToRight.x > 0)
 				{
 					vel += new Vector3(5, 0, 0);
@@ -177,17 +178,15 @@ public class PlayerController : MonoBehaviour
 					if (vel.x < 0) { vel.x += .1f; }
 				}
 
-
+				//fall speed
 				if (handDistance <= .1)
 				{
-					//vel = new Vector3(vel.x, -20, vel.z);
 					dropSpeed -= .1f;
 					if (dropSpeed < -30)
 						dropSpeed = -30;
 				}
 				else if (handDistance >= 1)
 				{
-					//vel = new Vector3(vel.x, -3, vel.z);
 					dropSpeed += .3f;
 					if (dropSpeed > -3) {
 						dropSpeed = -3;
@@ -200,7 +199,6 @@ public class PlayerController : MonoBehaviour
 					else if (dropSpeed < -9.8)
 						dropSpeed += .2f;
 					
-					//vel = new Vector3(vel.x, -9.8f, vel.z);
 					
 				}
 				vel = new Vector3(vel.x, dropSpeed, vel.z);
